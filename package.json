@@ -1,0 +1,21 @@
+{
+  "name": "jest-intro",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "supertest": "^6.2.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^9.0.0"
+  }
+}
